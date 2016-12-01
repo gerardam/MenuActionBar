@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Toolbar
+        android:id="@+id/toolbarC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvTitulo"
+        android:layout_below="@+id/toolbarC"
+        android:text="@string/TituloCreditos"
+        android:textColor="@android:color/holo_orange_dark"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvTextoUno"
+        android:layout_below="@+id/txvTitulo"
+        android:text="@string/CreditosText"
+        android:textColor="@android:color/darker_gray"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvTextoDos"
+        android:layout_below="@+id/txvTextoUno"
+        android:text="@string/CreditosText"
+        android:textColor="@android:color/darker_gray"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" />
+</RelativeLayout>
